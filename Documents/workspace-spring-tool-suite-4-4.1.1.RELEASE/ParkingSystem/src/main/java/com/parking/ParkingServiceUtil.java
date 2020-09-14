@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ParkingServiceUtil implements ParkingService {
-	private Integer parkingCapacity = 2;
+	private Integer parkingCapacity = 10;
 
-	private ArrayList<ParkingSlot> parkingSlots = new ArrayList<>();
+	private ArrayList<ParkingSlot> parkingSlots ;
 
-	private ArrayList<Ticket> tickets = new ArrayList<>();
+	private ArrayList<Ticket> tickets ;
 
 	ParkingSlot slot = null;
 
